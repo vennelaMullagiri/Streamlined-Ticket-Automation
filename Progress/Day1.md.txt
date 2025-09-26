@@ -1,0 +1,76 @@
+📅 Day 1 Progress – Streamlining Ticket Assignment for Efficient Support Operations
+Overview
+
+On Day 1, we established the project’s foundation by setting up users, groups, roles, a custom table, and the required access controls. This groundwork enables us to implement automation flows in later stages.
+
+✅ Key Tasks Completed
+
+1️⃣ Created Users
+
+Niranjan Manne – Handles platform-related issues
+
+Katherine Pierce – Handles certification-related issues
+
+Configured First Name, Last Name, and Email for both users.
+
+Verified creation under System Security → Users.
+
+2️⃣ Created Groups
+
+Platform Group – Handles platform-related issues
+
+Certification Group – Handles certification-related issues
+
+Added descriptions for clarity.
+
+3️⃣ Created Roles
+
+platform_role – Assigned to Platform Group
+
+certification_role – Assigned to Certification Group
+
+4️⃣ Created Custom Table
+
+Table Name: Operations related (u_operations_related)
+
+Columns Added: Assigned to Group, Assigned to User, Service Request No, Name, Ticket Raised Date, Priority, Issue (choice field), Comment, Created By, Updated By, etc.
+
+Enabled Create Module and Create Mobile Module.
+
+Created Choices for Issue field:
+
+Unable to login to platform
+
+404 Error
+
+Regarding certificates
+
+Regarding user expired
+
+📸 Image Placeholder: CreateTable.png
+
+5️⃣ Assigned Users & Roles to Groups
+
+Added Katherine Pierce to Certification Group and assigned certification_role.
+
+Added Niranjan Manne to Platform Group and assigned platform_role.
+
+6️⃣ Assigned Roles to Table
+
+Opened Application Access for u_operations_related.
+
+Elevated Security Role → Added platform_role and certification_role to both Read and Write operations.
+
+7️⃣ Created ACLs
+
+Created Access Control List (ACL) rules for Read, Write, Delete, and Create.
+
+Ensured admin role was added under Requires Role.
+
+📸 Image Placeholder: CreatedAcls.png
+
+📝 Status
+
+Completed: User creation, Group creation, Role creation, Table creation, User & Role assignments, ACL configuration.
+
+Next Step: Build automation flows (Flow Designer) to assign tickets dynamically to appropriate groups based on issue type.
