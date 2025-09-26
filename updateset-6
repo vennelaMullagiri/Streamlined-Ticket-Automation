@@ -1,0 +1,18 @@
+<xml>
+<u_operations_related>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-26 05:49:08</sys_created_on>
+<sys_id>b7cba114c35872107281b6fdd4013187</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>system</sys_updated_by>
+<sys_updated_on>2025-09-26 05:49:09</sys_updated_on>
+<u_assigned_to_group display_value="Certificates" name="Certificates">39497a84c3d832107281b6fdd4013150</u_assigned_to_group>
+<u_assigned_to_user display_value="Vennela Mullagiri">51a73a04c3d832107281b6fdd4013132</u_assigned_to_user>
+<u_comment>I didn't get any certificate regarding.</u_comment>
+<u_issue>regarding certificates</u_issue>
+<u_name>Vennela</u_name>
+<u_priority>1</u_priority>
+<u_service_request_no>156</u_service_request_no>
+<u_ticket_raised_date>2025-09-26 05:48:34</u_ticket_raised_date>
+</u_operations_related>
+</xml>
