@@ -1,0 +1,64 @@
+📅 Day 2 Progress – Streamlining Ticket Assignment for Efficient Support Operations
+Overview
+
+On Day 2, we moved from the foundation phase into automation and flow implementation. This milestone automated ticket assignment to the appropriate group based on the issue type, reducing manual work and improving resolution speed.
+
+✅ Key Tasks Completed
+
+1️⃣ Created & Configured Flow Designer Flows
+
+Flow 1 – Regarding Certificates
+
+Flow Name: Regarding Certificate
+
+Trigger: Created or Updated Record
+
+Table: Operations related (u_operations_related)
+
+Condition: Issue = “Regarding certificates”
+
+Action: Update Record
+
+Field Updated: Assigned to Group = Certification Group
+
+Purpose: Automatically routes all certificate-related tickets to the Certification Group for faster resolution.
+
+Flow 2 – Regarding Platform
+
+Flow Name: Regarding Platform
+
+Trigger: Created or Updated Record
+
+Table: Operations related (u_operations_related)
+
+Condition:
+
+Issue = “Unable to login to platform” OR
+
+Issue = “404 Error” OR
+
+Issue = “Regarding user expired”
+
+Action: Update Record
+
+Field Updated: Assigned to Group = Platform Group
+
+Purpose: Ensures all platform-related issues are assigned to the Platform Group automatically.
+
+📸 Image Placeholder: Flow1_Certificate.png, Flow2_Platform.png
+
+2️⃣ Testing & Verification
+
+Created multiple test records with various issue types.
+
+Verified that tickets are automatically routed to the correct group.
+
+Observed successful execution in Flow Designer Execution Logs.
+
+📸 Image Placeholder: ExecutionLogs.png
+
+📝 Status
+
+Completed: Automation flows built and verified for certificate and platform issues.
+
+Next Step: Extend flow logic to include notifications (email/SMS) to assigned groups, and implement reporting on ticket resolution times.
